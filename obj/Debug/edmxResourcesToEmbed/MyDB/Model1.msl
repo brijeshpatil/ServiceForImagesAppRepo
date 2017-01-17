@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ServiceForImagesDBModelStoreContainer" CdmEntityContainer="ServiceForImagesDBEntities">
+    <EntitySetMapping Name="StoreImageInBinaries">
+      <EntityTypeMapping TypeName="ServiceForImagesDBModel.StoreImageInBinary">
+        <MappingFragment StoreEntitySet="StoreImageInBinary">
+          <ScalarProperty Name="ImgID" ColumnName="ImgID" />
+          <ScalarProperty Name="ImgData" ColumnName="ImgData" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StoreImageInStrings">
+      <EntityTypeMapping TypeName="ServiceForImagesDBModel.StoreImageInString">
+        <MappingFragment StoreEntitySet="StoreImageInString">
+          <ScalarProperty Name="ImgID" ColumnName="ImgID" />
+          <ScalarProperty Name="ImgData" ColumnName="ImgData" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
